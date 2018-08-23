@@ -17,7 +17,7 @@ frag1 = seq[:eco_pos]
 frag2 = seq[eco_pos:]
 
 print('The first and last bases in fragment 1 are:', frag1[0], 'and', frag1[len(frag1) - 1])
-
+print('The first and last bases in fragment 2 are:', frag2[0], 'and', frag2[len(frag2) - 1])
 
 
 
