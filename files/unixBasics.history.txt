@@ -1,0 +1,500 @@
+  111  ls
+  112  rm Python_05.fasta 
+  113  rm foo.txt 
+  114  cat review.py 
+  115  rm review.py 
+  116  ls
+  117  mkdir RepStatusParser
+  118  cd RepStatusParser/
+  119  git clone https://github.com/webbshasta/RepStatusParser.git
+  120  cd ~
+  121  cd Desktop/Python_Scripts/
+  122  which python
+  123  ls
+  124  pwd
+  125  mkdir PyYYC
+  126  l
+  127  ls
+  128  cd PyYYC/
+  129  git clone https://github.com/py-yyc/git-init.git
+  130  ls
+  131  cd git-init/
+  132  ls
+  133  cd ..
+  134  ls
+  135  pwd
+  136  git clone https://github.com/py-yyc/git-init-dulwich.git
+  137  ls
+  138  git help
+  139  cd ~
+  140  cat ~/.gitconfig
+  141  ls -A
+  142  cd PyYYC/git-init
+  143  ls
+  144  cd ..
+  145  ls
+  146  git remote add origin https://github.com/webbshasta/PyYYC-Practice.git
+  147  git clone https://github.com/webbshasta/PyYYC-Practice.git
+  148  vi foo.txt
+  149  ls
+  150  mv foo.txt ~/PyYYC/PyYYC-Practice/
+  151  cd PyYYC-Practice/
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd git-init-dulwich/
+  156  ls
+  157  vi low.py 
+  158  cd PyYYC/git-initi
+  159  cd PyYYC/git-init-dulwich/
+  160  ipython
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd PyYYC-Practice/
+  165  ls
+  166  git pull origin master
+  167  vi foo.txt
+  168  git pull
+  169  git commit -m '3x foo'
+  170  git push
+  171  git push origin master
+  172  ls
+  173  git remote add origin https://github.com/webbshasta/PyYYC-Practice.git
+  174  git push -u origin master
+  175  ls
+  176  git add 'foo.txt'
+  177  git commit -m 'adding foo'
+  178  git push
+  179  vi foo.txt 
+  180  git add 'foo.txt' 
+  181  git commit -m 'cccc added'
+  182  git push
+  183  git log
+  184  git reflog
+  185  git checkout 4a7b4facab4ffa1c6e6f0f7ae54e6b13cb9d44'
+  186  q
+  187  git checkout '4a7b4facab4ffa1c6e6f0f7ae54e6b1341cb9d44'
+  188  cd ..
+  189  ls
+  190  rmdir git-init
+  191  cd ..
+  192  ls
+  193  cd PyYYC/
+  194  l
+  195  ls
+  196  git-init
+  197  cd git-init
+  198  rm -r
+  199  ls
+  200  cd ..
+  201  git remote add origin 'https://github.com/webbshasta/git-init.git'
+  202  cd git-init
+  203  git remote add origin 'https://github.com/webbshasta/git-init.git'
+  204  vi attendees.txt 
+  205  git add 'attendees.txt' 
+  206  git commit -m 'adding name to attendees'
+  207  git push
+  208  ls
+  209  git remote -v
+  210  git remote add github 'https://github.com/webbshasta/git-init.git'
+  211  git fetch github
+  212  git remote -v
+  213  git add 'attendees.txt' 
+  214  git commit -m 'adding name'
+  215  git push github master
+  216  git pull origin master
+  217  git push github master
+  218  ssh swebb@synergy.chgi.ucalgary.ca
+  219  ssh sbhatnagar@synergy.chgi.ucalgary.ca
+  220  clear
+  221  ssh swebb@synergy.chgi.ucalgary.ca
+  222  ssh swebb@synergy.chgi.ucalgary.ca
+  223  ssh swebb@synergy.chgi.ucalgary.ca
+  224  ssh swebb@synergy.chgi.ucalgary.ca
+  225  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/raw/fastqc .
+  226  ls
+  227  cp fastqc Desktop/
+  228  cd fastqc/
+  229  ls
+  230  ls
+  231  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/raw/fastqc .
+  232  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/qc .
+  233  ssh swebb@synergy.chgi.ucalgary.ca
+  234  ls
+  235  cd qc
+  236  ls
+  237  ssh swebb@synergy.chgi.ucalgary.ca
+  238  ssh swebb@synergy.chgi.ucalgary.ca
+  239  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/metaquast/metaquast_results/combined_reference ./
+  240  swebb@synergy.chgi.ucalgary.ca
+  241  ssh swebb@synergy.chgi.ucalgary.ca
+  242  ssh swebb@synergy.chgi.ucalgary.ca
+  243  scp -r swebb@synergy.chgi.ucalgary.ca:/gpfs/ebg_mgw/swebb/mgworkshop2018/mapping/*.sorted.bam ./
+  244  ssh swebb@synergy.chgi.ucalgary.ca
+  245  scp -r swebb@synergy.chgi.ucalgary.ca:/gpfs/ebg_mgw/swebb/mgworkshop2018/mapping/*.sorted.bam.bai ./
+  246  ssh swebb@synergy.chgi.ucalgary.ca
+  247  ssh swebb@synergy.chgi.ucalgary.ca
+  248  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/checkM_output/storage/tree/concatenated.tre ./Desktop/
+  249  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/checkM_output/storage/tree/concat.rename.tre ./Desktop/
+  250  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/checkM_output/storage/tree/concat.rename.tre ./Desktop/
+  251  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/checkM_output/concat.rename.tre ./Desktop/
+  252  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/concat.rename.tre ./Desktop/
+  253  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/checkM_stats.txt ./Desktop/
+  254  vi ~/Desktop/checkM_stats.txt 
+  255  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/checkM/plots/bin_qa_plot.png ./Desktop/
+  256  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/binning/concat.bins.fa ./Desktop/
+  257  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/binning/metabat_annotation.list ./Desktop/
+  258  ls
+  259  head test.fa
+  260  ssh swebb@synergy.chgi.ucalgary.ca
+  261  ssh swebb@synergy.chgi.ucalgary.ca
+  262  scp -r swebb@synergy.ucalgary.cghi.ca:~//mgworkshop2018/annotation/metaerg_output .
+  263  scp -r swebb@synergy.ucalgary.chgi.ca:~//mgworkshop2018/annotation/metaerg_output .
+  264  scp -r swebb@synergy.ucalgary.chgi.ca:~/mgworkshop2018/annotation/metaerg_output .
+  265  scp -r swebb@synergy.chgi.ucalgary.ca:~/mgworkshop2018/annotation/metaerg_output .
+  266  ls -lrt
+  267  cd metaerg_output/
+  268  ls
+  269  cd data/
+  270  ls
+  271  more master.gff 
+  272  more master.gff 
+  273  ls
+  274  ls -lrt | more
+  275  more master.tbl
+  276  more master.summary.txt 
+  277  ls
+  278  vi metaErgNotes.txt
+  279  ls
+  280  vi .bash_profile
+  281  cd Dropbox/ShastaPhDData/CleanParsedData/NileCleanData/
+  282  ls
+  283  ls >NileDataList.txt
+  284  cat NileDataList.txt 
+  285  cd ..
+  286  ls
+  287  cd NuriaCleanData/
+  288  ls >NuriaCleanDataList.txt
+  289  cd ../ShastaCleanData/
+  290  ls >ShastaCleanDataList.txt
+  291  ls
+  292  cd Parsed/
+  293  ls >ShastaCleanDataList.txt
+  294  cd ..
+  295  ls
+  296  cd Focals/
+  297  ls >ShastaFocalsList.txt
+  298  cd ../ReParsed/
+  299  ls >ReparsedDataList.txt
+  300  cd Dropbox/ShastaPhDData/CleanParsedData/NuriaCleanData/
+  301  ls
+  302  cd F
+  303  cd Focals/
+  304  l
+  305  ls
+  306  ls >NuriaCleanFocals.txt
+  307  vi WebbPhDDatabase2018.READme
+  308  ls
+  309  mv WebbPhDDatabase2018.READme Dropbox/WebbDataBases/
+  310  cd Dropbox/WebbDataBases/
+  311  ls
+  312  cd 4d3d3d3/
+  313  vi 3.1.py 
+  314  vi 3.2.py 
+  315  vi 3.3.py 
+  316  ls
+  317  cd 4d3d3d3/
+  318  ls
+  319  ls -a
+  320  ls -l
+  321  vi 3.7.py 
+  322  ls
+  323  ls -lrt
+  324  vi 3.8.py 
+  325  ls
+  326  vi 3.1.py 
+  327  python3 3.1.py 
+  328  vi 3.2.py 
+  329  vi 3.3.py 
+  330  python3 3.3.py 
+  331  ls
+  332  vi 3.5.py 
+  333  python3 3.5.py 
+  334  vi 3.6.py 
+  335  python3 3.6.py 
+  336  vi 3.6.py 
+  337  git add '3.6.a.py' 
+  338  git commit -m 'fixing swp file issue'
+  339  git push origin master
+  340  rm 3.6.py 
+  341  ls
+  342  vi 3.6.a.py 
+  343  python3 3.6.a.py 
+  344  git add '3.6.a.py' 
+  345  git commit -m 'finishing 3.6'
+  346  git push origin master
+  347  ls
+  348  ls -l
+  349  vi 3.7
+  350  ls -l
+  351  vi 3.7.py 
+  352  python3 3.7.py 
+  353  git add '3.7.py' 
+  354  git commit -m 'updating if necessary'
+  355  git push origin master
+  356  rm .3.6.py.swp 
+  357  head history.txt 
+  358  rm history.txt 
+  359  ls
+  360  ls-l
+  361  ls -l
+  362  vi 3.8.py 
+  363  python3 3.8.py 
+  364  vi 3.8.py 
+  365  python3 3.8.py 
+  366  vi 3.8.py 
+  367  python3 3.8.py 
+  368  vi 3.8.py 
+  369  python3 3.8.py 
+  370  git add '3.8.py'
+  371  git commit -m 'completing 3.8'
+  372  git push origin master
+  373  vi 3.8.py 
+  374  vi 3.9.py 
+  375  python3 3.9.py 
+  376  git add '3.9.py' 
+  377  git commit -m 'completed 3.9'
+  378  git push origin master
+  379  vi 3.9.py 
+  380  vi 3.10.py 
+  381  python3 3.10.py 
+  382  git add '3.10.py' 
+  383  git commit -m 'completed 3.10'
+  384  git push origin master
+  385  vi 3.11.py
+  386  python3 3.11.py 
+  387  vi 3.11.py
+  388  python3 3.11.py 
+  389  vi 3.11.py
+  390  git add '3.11.py' 
+  391  git commit -m 'adding 3.11'
+  392  git push origin master
+  393  cd ..
+  394  ls
+  395  cd Desktop/PythonScripts/
+  396  ls
+  397  vi RepStatusParserII.py 
+  398  ls -l
+  399  /Users/user/Webb_PFB_2017/pfb2017-1/TOC/gh-md-toc ; exit;
+  400  ls
+  401  cd Desktop/
+  402  cd ../RepStatusParser/
+  403  ls
+  404  cd RepStatusParser/
+  405  ls
+  406  cd ..
+  407  ls
+  408  cd ../Desktop/
+  409  ls
+  410  cd RepStatusParserBehavData/
+  411  ls
+  412  ls
+  413  ls -lrt
+  414  vi RepStatusParserIII.py 
+  415  head csvInfantDeathWithMother20132018.csv 
+  416  python3
+  417  'file, file, another file\n a, b, c\n x, e, r' >foo.csv
+  418  vi
+  419  head foo.csv 
+  420  python3
+  421  python3
+  422  ls
+  423  head DFFWebbTestDataforRepStatusParser.csv 
+  424  cd Desktop/RepStatusParserBehavData2018/
+  425  ls -l
+  426  head csvInfantDeathWithMother20132018.csv 
+  427  head DFFWebbTestDataforRepStatusParser.csv 
+  428  ls -l
+  429  python3 RepStatusParserIII.py 
+  430  python3 RepStatusParserIII.py 
+  431  python3 RepStatusParserIII.py 
+  432  python3 RepStatusParserIII.py 
+  433  python3 RepStatusParserIII.py 
+  434  head csvInfantDeathWithMother20132018.csv 
+  435  python3 RepStatusParserIII.py 
+  436  python3 RepStatusParserIII.py 
+  437  python3 RepStatusParserIII.py 
+  438  python3 RepStatusParserIII.py 
+  439  python3 RepStatusParserIII.py 
+  440  clear
+  441  python3 RepStatusParserIII.py 
+  442  python3 RepStatusParserIII.py 
+  443  python3 RepStatusParserIII.py 
+  444  python3 RepStatusParserIII.py 
+  445  python3 RepStatusParserIII.py 
+  446  python3 RepStatusParserIII.py 
+  447  python3 RepStatusParserIII.py 
+  448  python3 RepStatusParserIII.py 
+  449  python3 RepStatusParserIII.py 
+  450  python3 RepStatusParserIII.py 
+  451  python3 RepStatusParserIII.py 
+  452  python3 RepStatusParserIII.py 
+  453  python3 RepStatusParserIII.py 
+  454  python3 RepStatusParserIII.py 
+  455  python3 RepStatusParserIII.py 
+  456  python3 RepStatusParserIII.py 
+  457  python3 RepStatusParserIII.py 
+  458  python3 RepStatusParserIII.py 
+  459  python3 RepStatusParserIII.py 
+  460  python3 RepStatusParserIII.py 
+  461  python3 RepStatusParserIII.py 
+  462  python3 RepStatusParserIII.py 
+  463  python3 RepStatusParserIII.py 
+  464  which r?
+  465  which r
+  466  vi RepStatusReDo.py
+  467  ls
+  468  cd 4d3d3d3/
+  469  ls
+  470  vi 3.10.py 
+  471  git add 3.10.py 
+  472  git commit -m 'final 3.10'
+  473  git push origin master
+  474  vi 4.1.py
+  475  echo ~
+  476  cd 4d3d3d3/
+  477  ls
+  478  mkdir problemsets
+  479  cd problemsets/
+  480  wget https://github.com/prog4biol/pfb2017/blob/master/files/sequences.nt.fa
+  481  curl -O https://github.com/prog4biol/pfb2017/blob/master/files/sequences.nt.fa
+  482  ls
+  483  wc -l sequences.nt.fa 
+  484  wc -l
+  485  head sequences.nt.fa 
+  486  tail sequences.nt.fa 
+  487  rm sequences.nt.fa 
+  488  ls
+  489  clear
+  490  wc -l seqs.nt.fa 
+  491  wc -c seqs.nt.fa 
+  492  wc -m seqs.nt.fa 
+  493  head -1 seqs.nt.fa 
+  494  head seqs.nt.fa 
+  495  tail -3 seqs.nt.fa 
+  496  grep '>' seqs.nt.fa | wc
+  497  grep '>' seqs.nt.fa
+  498  grep '>' seqs.nt.fa | wc -l
+  499  mv seqs.nt.fa cancer_genes.fa
+  500  l
+  501  ls
+  502  curl -O 
+  503        pfb2017/files/cuffdiff.txt
+  504  curl -O https://github.com/prog4biol/pfb2017/blob/master/files/cuffdiff.txt
+  505  head cuffdiff.txt 
+  506  rm cuffdiff.txt 
+  507  curl -O https://github.com/webbshasta/pfb2017-1/blob/master/files/cuffdiff.txt
+  508  head cuffdiff.txt 
+  509  wget https://github.com/webbshasta/pfb2017-1/blob/master/files/cuffdiff.txt
+  510  vi cuffdiff.txt
+  511  rm cuffdiff.txt 
+  512  vi cuffdiff.txt
+  513  head 03 cuffdiff.txt 
+  514  head -3 cuffdiff.txt 
+  515  clear
+  516  awk '{$10}' | sort
+  517  awk '{$10}' cuffdiff.txt | sort
+  518  awk {$10} cuffdiff.txt | sort
+  519  awk $10 cuffdiff.txt | head 
+  520  ls
+  521  head cuffdiff.txt 
+  522  cat cuffdiff.txt | cut -f 10
+  523  cat cuffdiff.txt | cut -f 10 | sort
+  524  cat cuffdiff.txt | cut -f 10 | sort >sorted.cuffdiff.txt
+  525  ls
+  526  head sorted.cuffdiff.txt 
+  527  lear
+  528  clear
+  529  head sorted.cuffdiff.txt 
+  530  head -20 sorted.cuffdiff.txt 
+  531  sort -k 12 cuffdiff.txt >sorted.cuffdiff.txt 
+  532  head sorted.cuffdiff.txt 
+  533  head sorted.cuffdiff.txt 
+  534  sort -k 10 cuffdiff.txt >sorted.cuffdiff.txt 
+  535  head sorted.cuffdiff.txt 
+  536  cat sorted.cuffdiff.txt 
+  537  cat sorted.cuffdiff.txt | cut -f 10
+  538  sort -r -k 10 cuffdiff.txt >sorted.cuffdiff.txt 
+  539  cat sorted.cuffdiff.txt | cut -f 10
+  540  cat sorted.cuffdiff.txt | cut -f 10
+  541  sort -r -k 10 cuffdiff.txt | head 100 >top100.sorted.cuffdiff.txt 
+  542  sort -r -k 10 cuffdiff.txt | head -100 >top100.sorted.cuffdiff.txt 
+  543  head top100.sorted.cuffdiff.txt 
+  544  cat top100.sorted.cuffdiff.txt | cut -f 10 
+  545  sort -r -k 10 cuffdiff.txt | head -100 | cut -f 1 | sort | uniq >differentially.expressed.genes.txt 
+  546  head differentially.expressed.genes.txt 
+  547  cat differentially.expressed.genes.txt 
+  548  sort -r -k 10 cuffdiff.txt | head -100 | cut -f 1 | sort | uniq >differentially.expressed.genes.txt 
+  549  git add 'differentially.expressed.genes.txt' 
+  550  git commit -m 'unix ps'
+  551  git push
+  552  ls
+  553  cd ..
+  554  ls
+  555  git add 'unix1.txt' 
+  556  git commit -m 'unix 1 problem sets'
+  557  git push
+  558  l
+  559  ls
+  560  cd ..
+  561  ls
+  562  echo "# Foo" >> README.md
+  563  echo "# Foo" >> README.md
+  564  git init
+  565  git add README.md
+  566  git commit -m "first commit"
+  567  git remote add origin https://github.com/webbshasta/Foo.git
+  568  git remote add local https://github.com/webbshasta/Foo.git
+  569  git push -u local master
+  570  ls
+  571  ls -a
+  572  cd .git/
+  573  ls
+  574  cd ..
+  575  ls -lrt
+  576  cd ..
+  577  ls
+  578  cd user/
+  579  ls
+  580  cd 4d3d3d3/
+  581  ls
+  582  cd ..
+  583  ls
+  584  cp 4d3d3d3 PFB_2018_TA_Prep
+  585  cp -r 4d3d3d3/* PFB_2018_TA_Prep
+  586  ls
+  587  cp 4d3d3d3/* PFB_2018_TA_Prep
+  588  cd 4d3d3d3/
+  589  ls
+  590  cd ..
+  591  cp -r "4d3d3d3"/* "PFB2018_TA_Prep"
+  592  rsync -auv 4d3d3d3/ pfb2018_TA_Prep/
+  593  ls
+  594  cd pfb2018_TA_Prep/
+  595  git remote add origin https://github.com/webbshasta/pfb2018_TA_Prep.git
+  596  git remote add local https://github.com/webbshasta/pfb2018_TA_Prep.git
+  597  git push -u local master
+  598  mkdir files
+  599  cd ../4d3d3d3/
+  600  vi foo3.txt
+  601  cd ../pfb2018_TA_Prep/
+  602  mv ~/4d3d3d3/foo3.txt files
+  603  ls
+  604  cd files/
+  605  ls
+  606  git add 'foo3.txt' 
+  607  git commit -m 'adding foo3'
+  608  git push
+  609  history
+  610  history >unixBasics.history.txt
