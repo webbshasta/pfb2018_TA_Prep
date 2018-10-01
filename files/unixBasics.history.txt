@@ -5,15 +5,6 @@
   115  rm review.py 
   116  ls
   117  mkdir RepStatusParser
-  118  cd RepStatusParser/
-  119  git clone https://github.com/webbshasta/RepStatusParser.git
-  120  cd ~
-  121  cd Desktop/Python_Scripts/
-  122  which python
-  123  ls
-  124  pwd
-  125  mkdir PyYYC
-  126  l
   127  ls
   128  cd PyYYC/
   129  git clone https://github.com/py-yyc/git-init.git
