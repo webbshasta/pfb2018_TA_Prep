@@ -62,16 +62,16 @@ head -3 cuffdiff.txt
 
 This will extract just the column: cat cuffdiff.txt | cut -f 10 | sort >sorted.cuffdiff.txt
 
-This will sort in descending order by specified column: sort -r -k 10 cuffdiff.txt >sorted.cuffdiff.txt 
+This will sort in descending order by specified column: sort -r -g -k 10 cuffdiff.txt >sorted.cuffdiff.txt 
 
 This will test it: cat sorted.cuffdiff.txt | cut -f 10
 
 #10c Sort the file (log fold change highest to lowest) then print out only the first 100 lines. Save in a file called top100.sorted.cuffdiff.out
 
-sort -r -k 10 cuffdiff.txt | head -100 >top100.sorted.cuffdiff.txt
+sort -r -g -k 10 cuffdiff.txt | head -100 >top100.sorted.cuffdiff.txt
 
 #10d Sort the file by log fold change, print out the top 100, print only first column. This will be a list of the genes with the largest change in expression. Make sure your list is sorted by gene name and is unique. Save this curated list in a file called differentially.expressed.genes.txt.
 
-sort -r -k 10 cuffdiff.txt | head -100 | cut -f 1 | sort | uniq >differentially.expressed.genes.txt
+sort -r -g -k 10 cuffdiff.txt | head -100 | cut -f 1 | sort | uniq >differentially.expressed.genes.txt
 
 
