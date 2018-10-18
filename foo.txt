@@ -1,2 +1,0 @@
-total 0
--rw-r--r--  1 Shasta  staff  0 19 Jul 10:11 foo.txt
