@@ -1,0 +1,11 @@
+Shasta Webb
+PFB TA Preparation Problem Sets
+Filename: unix2.txt
+
+1. Creating a git hub repository.
+
+I created a directory on my local machine, then used the code git hub provided to push it to a git hub repo that I initialized. 
+
+2-3. Moving files from one directory to the git repo at the local machine, then pushing them all to the remote repo. 
+
+4-18. Git git git. 
